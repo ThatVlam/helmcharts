@@ -3,7 +3,7 @@ entries:
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-08T11:38:17.088189775Z"
+    created: "2022-08-08T11:46:18.729576813Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 3f111af961555f734abeeea12f8c75c7512e85a6081dd1c10dc215b9a9cacfd9
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -17,4 +17,4 @@ entries:
     urls:
     - mssql-linux-0.7.0.tgz
     version: 0.7.0
-generated: "2022-08-08T11:38:17.087224447Z"
+generated: "2022-08-08T11:46:18.726416005Z"
