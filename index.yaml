@@ -3,7 +3,7 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.10
-    created: "2022-08-09T14:32:40.788514383Z"
+    created: "2022-08-09T15:28:06.372193772Z"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 95f5ddd7a9ac1425a5a2b538d09a13cd097ab80b8f733c4074b2e4e121b2563f
     home: https://www.influxdata.com/time-series-platform/influxdb/
@@ -30,7 +30,7 @@ entries:
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-09T14:32:40.791709802Z"
+    created: "2022-08-09T15:28:06.376384327Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 419efdbc72096c08465bfd0ff64d57d9ab01bb2121c293382c71376f753c06e5
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -44,16 +44,4 @@ entries:
     urls:
     - mssql-linux-0.7.0.tgz
     version: 0.7.0
-  spicedb:
-  - apiVersion: v2
-    appVersion: v1.4.0
-    created: "2022-08-09T14:32:40.792244405Z"
-    description: A Helm chart to manage a Kubernetes based deployment of Authzed spicedb.
-      For more information see https://github.com/authzed/spicedb.
-    digest: c69426ad8039e4916ea654e156e17bb256f00a51d6f5f8d877aee86810939be2
-    name: spicedb
-    type: application
-    urls:
-    - spicedb-0.0.1.tgz
-    version: 0.0.1
-generated: "2022-08-09T14:32:40.785730866Z"
+generated: "2022-08-09T15:28:06.370550851Z"
