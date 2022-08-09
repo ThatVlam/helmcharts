@@ -1,9 +1,36 @@
 apiVersion: v1
 entries:
+  influxdb:
+  - apiVersion: v1
+    appVersion: 1.8.10
+    created: "2022-08-09T13:18:21.594934341Z"
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 95f5ddd7a9ac1425a5a2b538d09a13cd097ab80b8f733c4074b2e4e121b2563f
+    home: https://www.influxdata.com/time-series-platform/influxdb/
+    keywords:
+    - influxdb
+    - database
+    - timeseries
+    - influxdata
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: influxdb
+    sources:
+    - https://github.com/influxdata/influxdb
+    urls:
+    - influxdb-4.12.0.tgz
+    version: 4.12.0
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-09T09:35:53.072258635Z"
+    created: "2022-08-09T13:18:21.59865355Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 419efdbc72096c08465bfd0ff64d57d9ab01bb2121c293382c71376f753c06e5
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -17,4 +44,4 @@ entries:
     urls:
     - mssql-linux-0.7.0.tgz
     version: 0.7.0
-generated: "2022-08-09T09:35:53.068393103Z"
+generated: "2022-08-09T13:18:21.593311138Z"
