@@ -3,7 +3,7 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.10
-    created: "2022-08-10T13:33:25.301979249Z"
+    created: "2022-08-10T13:37:09.637885782Z"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 95f5ddd7a9ac1425a5a2b538d09a13cd097ab80b8f733c4074b2e4e121b2563f
     home: https://www.influxdata.com/time-series-platform/influxdb/
@@ -27,10 +27,47 @@ entries:
     urls:
     - influxdb-4.12.0.tgz
     version: 4.12.0
+  kafka:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 3.2.0
+    created: "2022-08-10T13:37:09.644101468Z"
+    dependencies:
+    - name: zookeeper
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Apache Kafka is a distributed streaming platform designed to build
+      real-time pipelines and can be used as a message broker or as a replacement
+      for a log aggregation solution for big data applications.
+    digest: 317baa5d59b074e7767847261b4cd9fec2d020c03045e77ecf2d4a6e70bebd29
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kafka
+    icon: https://bitnami.com/assets/stacks/kafka/img/kafka-stack-220x234.png
+    keywords:
+    - kafka
+    - zookeeper
+    - streaming
+    - producer
+    - consumer
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kafka
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/kafka
+    - https://kafka.apache.org/
+    urls:
+    - kafka-18.0.3.tgz
+    version: 18.0.3
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-10T13:33:25.302742155Z"
+    created: "2022-08-10T13:37:09.644848378Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 36c5eb45e41c192a7066cb33b7d03526069b2cfc8c85363482fae81ab6337d89
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -47,7 +84,7 @@ entries:
   spicedb:
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2022-08-10T13:33:25.303259559Z"
+    created: "2022-08-10T13:37:09.645388586Z"
     description: A Helm chart to manage a Kubernetes based deployment of Authzed spicedb.
       For more information see https://github.com/authzed/spicedb.
     digest: 3734b41ab1d19026a39b676912ffad843b1aef946897253a03a53d8ce31a6061
@@ -56,4 +93,4 @@ entries:
     urls:
     - spicedb-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-10T13:33:25.300070635Z"
+generated: "2022-08-10T13:37:09.636252159Z"
