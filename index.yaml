@@ -3,7 +3,7 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.10
-    created: "2022-08-10T13:47:45.58237113Z"
+    created: "2022-08-11T08:43:48.810824993Z"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 95f5ddd7a9ac1425a5a2b538d09a13cd097ab80b8f733c4074b2e4e121b2563f
     home: https://www.influxdata.com/time-series-platform/influxdb/
@@ -27,12 +27,30 @@ entries:
     urls:
     - influxdb-4.12.0.tgz
     version: 4.12.0
+  influxdb2:
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2022-08-11T08:43:48.811693429Z"
+    description: A Helm chart for InfluxDB v2
+    digest: 8a27de93405ef6b436c454c87c882c9385b754f2c0430712c0921e9025ecd238
+    home: https://www.influxdata.com/products/influxdb/
+    icon: https://avatars0.githubusercontent.com/u/5713248?s=200&v=4
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    name: influxdb2
+    type: application
+    urls:
+    - influxdb2-2.1.0.tgz
+    version: 2.1.0
   kafka:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-08-10T13:47:45.593284775Z"
+    created: "2022-08-11T08:43:48.822668773Z"
     dependencies:
     - name: zookeeper
       repository: https://charts.bitnami.com/bitnami
@@ -67,7 +85,7 @@ entries:
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-10T13:47:45.594018978Z"
+    created: "2022-08-11T08:43:48.823389903Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 36c5eb45e41c192a7066cb33b7d03526069b2cfc8c85363482fae81ab6337d89
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -84,7 +102,7 @@ entries:
   spicedb:
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2022-08-10T13:47:45.594573981Z"
+    created: "2022-08-11T08:43:48.823873022Z"
     description: A Helm chart to manage a Kubernetes based deployment of Authzed spicedb.
       For more information see https://github.com/authzed/spicedb.
     digest: 3734b41ab1d19026a39b676912ffad843b1aef946897253a03a53d8ce31a6061
@@ -93,4 +111,4 @@ entries:
     urls:
     - spicedb-0.0.1.tgz
     version: 0.0.1
-generated: "2022-08-10T13:47:45.580430622Z"
+generated: "2022-08-11T08:43:48.809118824Z"
