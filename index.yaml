@@ -3,7 +3,7 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.10
-    created: "2022-08-12T10:48:09.174433105Z"
+    created: "2022-08-12T10:48:23.002615156Z"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 95f5ddd7a9ac1425a5a2b538d09a13cd097ab80b8f733c4074b2e4e121b2563f
     home: https://www.influxdata.com/time-series-platform/influxdb/
@@ -30,7 +30,7 @@ entries:
   influxdb2:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2022-08-12T10:48:09.175970131Z"
+    created: "2022-08-12T10:48:23.004508392Z"
     description: A Helm chart for InfluxDB v2
     digest: 8a27de93405ef6b436c454c87c882c9385b754f2c0430712c0921e9025ecd238
     home: https://www.influxdata.com/products/influxdb/
@@ -50,7 +50,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-08-12T10:48:09.188799245Z"
+    created: "2022-08-12T10:48:23.013796368Z"
     dependencies:
     - name: zookeeper
       repository: https://charts.bitnami.com/bitnami
@@ -85,7 +85,7 @@ entries:
   mssql-linux:
   - apiVersion: v1
     appVersion: 14.0.3023.8
-    created: "2022-08-12T10:48:09.190074067Z"
+    created: "2022-08-12T10:48:23.014482381Z"
     description: SQL Server 2017 Linux Helm Chart
     digest: 36c5eb45e41c192a7066cb33b7d03526069b2cfc8c85363482fae81ab6337d89
     home: https://hub.docker.com/r/microsoft/mssql-server-linux/
@@ -99,4 +99,16 @@ entries:
     urls:
     - mssql-linux-0.7.0.tgz
     version: 0.7.0
-generated: "2022-08-12T10:48:09.171809361Z"
+  spicedb:
+  - apiVersion: v2
+    appVersion: v1.4.0
+    created: "2022-08-12T10:48:23.01497699Z"
+    description: A Helm chart to manage a Kubernetes based deployment of Authzed spicedb.
+      For more information see https://github.com/authzed/spicedb.
+    digest: 28bba7b2e09a625cc3c75a22396a06e5daaba41246df35c3e2861d2288e38c08
+    name: spicedb
+    type: application
+    urls:
+    - spicedb-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-12T10:48:23.000855522Z"
